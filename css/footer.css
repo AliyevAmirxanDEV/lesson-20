@@ -1,0 +1,68 @@
+footer {
+  background: var(--primaryColar);
+}
+
+.footer__cards {
+  padding: 50px 0 80px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.footer__list-title {
+  padding-bottom: 20px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.footer__list-item,
+.footer__list-item-touch {
+  padding-bottom: 10px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.footer__list-item-touch {
+  display: flex;
+  gap: 10px;
+}
+
+.footer__list-item:hover {
+  color: orange;
+}
+
+.footer__list-item-touch:hover {
+  color: orange;
+}
+
+.footer__list-item-touch:hover svg path {
+  fill: orange;
+}
+
+.footer__nav-container {
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer__nav-desc {
+  color:  #737373;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.footer__nav-icons {
+  display: flex;
+  gap: 20px;
+}

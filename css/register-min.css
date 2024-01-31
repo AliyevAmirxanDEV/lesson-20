@@ -1,0 +1,45 @@
+.register {
+  background: #fff;
+  padding: 60px 0 100px;
+}
+.register__forms input {
+  outline: 0;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 12px 20px;
+}
+#comment {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+}
+select {
+  width: 100%;
+  height: 50px;
+}
+.register-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.register__btn {
+  max-width: 170px;
+  margin: 60px auto 100px;
+  padding: 15px 40px;
+  border-radius: 5px;
+  background: #ffa62b;
+  color: var(--light-text-color, #fff);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  border: 1px solid #ffa62b;
+}
+.register__btn:hover {
+  color: #ffa62b;
+  background: #fff;
+}

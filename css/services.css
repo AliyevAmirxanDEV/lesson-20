@@ -1,0 +1,137 @@
+.services {
+  padding: 100px 0;
+  background: white;
+}
+
+.services__title {
+  padding-bottom: 15px;
+  color: var(--colorBlack);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+
+.services__desc {
+  max-width: 510px;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  color: #737373;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.services__items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+.services__left {
+  max-width: 590px;
+  flex-grow: 1.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.servisec__left__back {
+  width: 100%;
+}
+
+.servisec__left__back img {
+  width: 100%;
+}
+
+.services__btn {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background: var(--primaryColar);
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services__right {
+  flex-grow: 0.8;
+}
+
+.services__right__title {
+  max-width: 330px;
+  padding-bottom: 10px;
+  color: var(--colorBlack);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+}
+
+.services__right__desc {
+  max-width: 320px;
+  padding-bottom: 20px;
+  color: #737373;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.services__infos {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.servicesc__info {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.services__card__title {
+  max-width: 260px;
+  color: var(--colorBlack);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+}
+
+.services__card__desc {
+  color: #737373;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+@media (max-width: 955px) {
+  .services__items {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 400px) {
+  .services__title {
+    font-size: 24px;
+    line-height: 45px;
+  }
+
+  .services__right__title {
+    font-size: 24px;
+    line-height: 45px;
+  }
+
+  .services__card__title {
+    font-size: 16px;
+  }
+}
